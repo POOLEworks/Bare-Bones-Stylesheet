@@ -672,13 +672,11 @@ nav li#nav-home a:focus {
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	filter: alpha(opacity=25);
-	-moz-opacity: 0.25;
 	opacity: 0.25;
 }
 
 #comments article:hover .reply a {
 	filter: alpha(opacity=100);
-	-moz-opacity: 1.0;
 	opacity: 1.0;
 }
 
@@ -847,112 +845,6 @@ nav li#nav-home a:focus {
 .right {
 	float: right;
 	display: inline;
-}
-
-/* @end */
-
-/* @group all mobile devices
-================================================================================= */
-
-@media all and (max-width: 1024px) {
-
-	html {
-		-webkit-text-size-adjust: none;
-	}
-
-}
-
-/* @end */
-
-/* @group large tablets
-================================================================================= */
-
-@media all and (max-width: 768px) {
-
-	
-
-}
-
-@media all and (max-width: 767px) {
-
-	#content,
-	#sidebar {
-		float: left;
-		width: 100%;
-	}
-	
-	#sidebar {
-		padding-top: 20px;
-		border-top: 3px double #d6d6d6;
-	}
-	
-	.content img,
-	#sidebar.content img {
-		max-width: 98.6244842%;
-		padding: 0.6877579%;
-	}
-	
-		#footer-credits,
-		#footer-meta {
-			float: left;
-			width: 100%;
-			text-align: left;
-		}
-		
-		#footer-credits {
-			margin-bottom: 5px;
-		}
-
-}
-
-/* @end */
-
-/* @group small tablets
-================================================================================= */
-
-@media all and (max-width: 600px) {
-
-	
-
-}
-
-/* @end */
-
-/* @group landscape mobile photos
-================================================================================= */
-
-@media all and (max-width: 480px) {
-
-	.content .alignleft,
-	.content .alignright {
-		float: none;
-		display: block;
-		margin: 0 0 15px 0;
-	}
-	
-	.content img[align $='left'] {
-		float: none;
-		display: block;
-		margin: 0 0 15px 0;
-	}
-	
-	.content img[align $='right'] {
-		float: none;
-		display: block;
-		margin: 0 0 15px 0;
-	}
-
-}
-
-/* @end */
-
-/* @group portrait mobile photos
-================================================================================= */
-
-@media all and (max-width: 320px) {
-
-	
-
 }
 
 /* @end */

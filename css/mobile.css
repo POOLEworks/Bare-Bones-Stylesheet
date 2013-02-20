@@ -1,0 +1,105 @@
+/* @group all mobile devices
+================================================================================= */
+
+@media all and (max-width: 1024px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+}
+
+/* @end */
+
+/* @group large tablets
+================================================================================= */
+
+@media all and (max-width: 768px) {
+
+	
+
+}
+
+@media all and (max-width: 767px) {
+
+	#content,
+	#sidebar {
+		float: left;
+		width: 100%;
+	}
+	
+	#sidebar {
+		padding-top: 20px;
+		border-top: 3px double #d6d6d6;
+	}
+	
+	.content img,
+	#sidebar.content img {
+		max-width: 98.6244842%;
+		padding: 0.6877579%;
+	}
+	
+		#footer-credits,
+		#footer-meta {
+			float: left;
+			width: 100%;
+			text-align: left;
+		}
+		
+		#footer-credits {
+			margin-bottom: 5px;
+		}
+
+}
+
+/* @end */
+
+/* @group small tablets
+================================================================================= */
+
+@media all and (max-width: 600px) {
+
+	
+
+}
+
+/* @end */
+
+/* @group landscape mobile photos
+================================================================================= */
+
+@media all and (max-width: 480px) {
+
+	.content .alignleft,
+	.content .alignright {
+		float: none;
+		display: block;
+		margin: 0 0 15px 0;
+	}
+	
+	.content img[align $='left'] {
+		float: none;
+		display: block;
+		margin: 0 0 15px 0;
+	}
+	
+	.content img[align $='right'] {
+		float: none;
+		display: block;
+		margin: 0 0 15px 0;
+	}
+
+}
+
+/* @end */
+
+/* @group portrait mobile photos
+================================================================================= */
+
+@media all and (max-width: 320px) {
+
+	
+
+}
+
+/* @end */
